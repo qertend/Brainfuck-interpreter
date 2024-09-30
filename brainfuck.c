@@ -55,7 +55,8 @@ int main() {
             //reads 1 byte from stdin and stores it in the current byte
             //converts the EOF signal to -1
             case read:
-                if (scanf("%c", &tape[tapeIndex]) == EOF) tape[tapeIndex] = -1;
+                scanf("%c", &tape[tapeIndex])
+                if (tape[tapeIndex] == EOF) tape[tapeIndex] = -1;
                 break;
 
             //if the current byte is 0, jumps to the correct cycleEnd character ("]")
