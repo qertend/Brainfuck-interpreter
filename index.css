@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.gridItem {
+    margin: 10px;
+}
+
+#program {
+    height: 60%;
+    width: 100%;
+    resize: none;
+}
+
+#input {
+    width: 100%;
+    resize: none;
+}
+
+#EOFCode {
+    width: 4ch;
+}
+
+#output {
+    width: 100%;
+    resize: vertical;
+    height: 60%;
+}
+
+#error {
+    text-align: center;
+    background-color: #FF5555;
+    border: .25rem solid red;
+    border-radius: .5rem;
+    display: none;
+    padding: .5rem;
+}

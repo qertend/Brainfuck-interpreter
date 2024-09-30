@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="">
+    <title>Brainfuck</title>
+</head>
+<body>
+    <div id="leftPartition" class="gridItem">
+        <noscript>
+            <h3>You need javascript enabled for this to function</h3>
+        </noscript>
+        <label for="program">Brainfuck instructions</label><br>
+        <textarea name="program" id="program"></textarea><br>
+        <label for="inputBox">Input (optional)</label><br>
+        <textarea name="inputBox" id="input" rows="5"></textarea><br>
+        <label for="inputBox">EOF character code</label>
+        <input type="text" name="EOFCharacterCode" id="EOFCode" value="-1"><br>
+        <button id="startProgram">Run</button><button id="stopProgram">Stop</button><br>
+    </div>
+    <div id="rightPartition"  class="gridItem">
+        <div id="error">
+
+        </div>
+        <label for="outputBox">Output</label><br>
+        <textarea name="outputBox" id="output"></textarea>
+    </div>
+</body>
+<script src="index.js" type="module"></script>
+</html>
