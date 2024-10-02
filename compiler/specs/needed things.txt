@@ -1,0 +1,7 @@
+X variables
+X basic arithmetic
+instruction priority using brackets ()
+comparing values
+loops
+if/else statements
+read and write I/O
